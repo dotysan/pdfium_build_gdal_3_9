@@ -18,7 +18,7 @@ if [ ! -d "$DEPOT_TOOLS_DIR" ]; then
 else 
   (cd "$DEPOT_TOOLS_DIR"; git checkout main; git pull)
 fi
-(cd "$DEPOT_TOOLS_DIR"; git checkout 9d7c8e76f82ddc6a3bbc307217e31dec44a0f73a)
+(cd "$DEPOT_TOOLS_DIR"; git checkout d32e1cb5717853a1837347884abc85149813c398)
 export PATH="$DEPOT_TOOLS_DIR:$PATH"
 
 # Checkout sources
